@@ -4,7 +4,6 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   const handleClick = () => {
           const menu = document.querySelector('.mobile-links');
@@ -15,7 +14,7 @@ function App() {
      <div className='w-[1920px] xsm:w-full mx-auto scroll-smooth'>
       <nav className='bg-gray-800 mx-auto flex justify-between lg:justify-start items-center fixed top-0 left-0 w-full z-50'>
         <div className='logo p-2 w-1/6'>
-          <img src="img/logo.png" width="100" alt="" />
+          <img src="/img/logo.png" width="100" alt="" />
         </div>
         <div className='links m-auto lg:block hidden  md:4/6 ml-5'>
           <ul className='menu flex items-center justify-center gap-5'>
@@ -41,7 +40,7 @@ function App() {
       </nav>
 
       <section className='header mt-[60px] sm:mt-[70px] md:mt-[80px]  lg:mt-[100px] xl:mt-[120px] 2xl:mt-[140px]'>
-        <img src="img/hero.jpg" alt="" id='home'/>
+        <img src="/img/hero.jpg" alt="" id='home'/>
       </section>
       
       <section>
@@ -59,7 +58,7 @@ function App() {
           <div id='play' className="left bg-characters-mario bg-no-repeat bg-contain bg-top w-5/6 md:w-1/2 pt-52 mx-auto">
             <div className='card text-center bg-white 2xl:w-5/6 mx-auto mt-72 rounded-2xl overflow-hidden xl:w-4/5'>
               <div className="cover bg-black">
-                <video id='trailer' src="videos/video01.mp4" autoPlay loop muted></video>
+                <video id='trailer' src="/videos/video01.mp4" autoPlay loop muted></video>
               </div>
               <div className="content bg-wave-pattern bg-repeat-x relative -top-3">
                 <h3 className='font-black text-4xl py-10'>Play Together</h3>
@@ -88,7 +87,7 @@ function App() {
 
             <div  className='card text-center bg-white 2xl:w-5/6 mx-auto mt-16 rounded-2xl overflow-hidden xl:w-4/5'>
               <div className="cover bg-black">
-                <video  src="videos/video02.mp4" autoPlay loop muted></video>
+                <video  src="/videos/video02.mp4" autoPlay loop muted></video>
               </div>
               <div className="content bg-wave-pattern bg-repeat-x relative -top-3">
                 <h3 className='font-black text-4xl py-10'>Explore</h3>
@@ -109,12 +108,12 @@ function App() {
         </div>
 
         <div className='footer text-center flex justify-center gap-9 pt-10'>
-          <img src="img/coin.gif" alt="" className='w-[50px] h-[50px] sm:w-[80px] sm:h-[80px]'/>
-          <img src="img/coin.gif" alt="" className='w-[50px] h-[50px] sm:w-[80px] sm:h-[80px]'/>
-          <img src="img/coin.gif" alt="" className='w-[50px] h-[50px] sm:w-[80px] sm:h-[80px]'/>
-          <img src="img/coin.gif" alt="" className='w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] hidden sm:block'/>
-          <img src="img/coin.gif" alt="" className='w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] hidden sm:block'/>
-          <img src="img/coin.gif" alt="" className='w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] hidden sm:block'/>
+          <img src="/img/coin.gif" alt="" className='w-[50px] h-[50px] sm:w-[80px] sm:h-[80px]'/>
+          <img src="/img/coin.gif" alt="" className='w-[50px] h-[50px] sm:w-[80px] sm:h-[80px]'/>
+          <img src="/img/coin.gif" alt="" className='w-[50px] h-[50px] sm:w-[80px] sm:h-[80px]'/>
+          <img src="/img/coin.gif" alt="" className='w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] hidden sm:block'/>
+          <img src="/img/coin.gif" alt="" className='w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] hidden sm:block'/>
+          <img src="/img/coin.gif" alt="" className='w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] hidden sm:block'/>
         </div>
       </section>
 
@@ -137,7 +136,7 @@ function App() {
             </p>
           </div>
           <div className="right xl:w-2/3 lg:w-1/2">
-            <img src="img/activity_img3.png" className='md:w-full' alt="" />
+            <img src="/img/activity_img3.png" className='md:w-full' alt="" />
           </div>
         </div>
 
