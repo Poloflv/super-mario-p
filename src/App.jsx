@@ -87,9 +87,7 @@ function App() {
 
             <div  className='card text-center bg-white 2xl:w-5/6 mx-auto mt-16 rounded-2xl overflow-hidden xl:w-4/5'>
               <div className="cover bg-black">
-                <video   autoPlay loop muted>
-                  <source src="/videos/video02.mp4" type='video/mp4' />
-                </video>
+                <video  src="/videos/video02.mp4" autoPlay loop muted></video>
               </div>
               <div className="content bg-wave-pattern bg-repeat-x relative -top-3">
                 <h3 className='font-black text-4xl py-10'>Explore</h3>
